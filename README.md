@@ -1,1 +1,1 @@
-# reesponsividade
+# responsividade
