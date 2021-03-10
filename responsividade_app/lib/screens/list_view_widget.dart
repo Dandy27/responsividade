@@ -1,26 +1,13 @@
 import 'package:flutter/material.dart';
 
-
 class ListViewWidget extends StatelessWidget {
-
-
-
-
   @override
   Widget build(BuildContext context) {
     return ListView(
-      children: [
-        Item1(),
-        Item2(),
-        Item3(),
-        Item4(),
-        Item5(),
-        Item6()
-      ],
+      children: [Item1(), Item2(), Item3(), Item4(), Item5(), Item6()],
     );
   }
 }
-
 
 class Item1 extends StatelessWidget {
   @override
@@ -58,11 +45,7 @@ class Item3 extends StatelessWidget {
 class Item4 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.red,
-      width: 200,
-      height: 200
-    );
+    return Container(color: Colors.red, width: 200, height: 200);
   }
 }
 

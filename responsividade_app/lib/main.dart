@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:responsividade_app/screens/align_screen.dart';
+import 'package:responsividade_app/screens/constraints.dart';
+import 'package:responsividade_app/screens/constraints2.dart';
 import 'package:responsividade_app/screens/fittedbox_widget.dart';
 import 'package:responsividade_app/screens/flexible_screen.dart';
 import 'package:responsividade_app/screens/grid_view_screen.dart';
+import 'package:responsividade_app/screens/gridview_extent_screen.dart';
 import 'package:responsividade_app/screens/list_view_widget.dart';
 import 'package:responsividade_app/screens/orientation_builder_widget.dart';
 import 'package:responsividade_app/screens/orientation_login.dart';
@@ -33,7 +36,10 @@ class MyApp extends StatelessWidget {
       // home: OrientationLogin(),
       // home: FittedBoxWidget(),
       // home: ListViewWidget(),
-      home: GridViewScreen(),
+      // home: GridViewScreen(),
+      // home: GridViewExtentScreen(),
+      // home: ConstrainstsScreen(),
+      home: ConstrainstsScreen2(),
     );
   }
 }

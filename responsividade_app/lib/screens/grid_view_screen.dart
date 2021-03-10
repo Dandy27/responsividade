@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:responsividade_app/screens/list_view_widget.dart';
+
 
 import 'orientation_login.dart';
 
@@ -20,6 +20,50 @@ class GridViewScreen extends StatelessWidget {
         Item3(),
         Item4()
       ],
+    );
+  }
+}
+
+class Item1 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 200,
+      height: 200,
+      color: Colors.pink,
+    );
+  }
+}
+
+class Item2 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 200,
+      height: 200,
+      color: Colors.blue,
+    );
+  }
+}
+
+class Item3 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 200,
+      height: 200,
+      color: Colors.purple,
+    );
+  }
+}
+
+class Item4 extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: 200,
+      height: 200,
+      color: Colors.orangeAccent,
     );
   }
 }
